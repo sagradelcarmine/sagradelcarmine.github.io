@@ -47,37 +47,37 @@
  }
 
 .btn-primary {
-    background-color: #e8772e !important;
-    border-color: #e8772e !important;
+    background-color: #99ccff !important;
+    border-color: #99ccff !important;
     color: white !important;
 }
 
 .btn-outline-primary {
   background-color: white !important;
-  border-color: #e8772e !important;
-  color: #e8772e !important;
+  border-color: #99ccff !important;
+  color: #99ccff !important;
 }
 
 .bg-primary{
-    background-color: #fdc77b !important;
+    background-color: #99ccff !important;
 }
 .text-primary {
     color: #99ccff !important;
 }
 .text-highlighted {
-    color: #e8772e !important;
+    color: #99ccff !important;
 }
 
 
 .form-check-input:checked {
-  background-color: #e8772e;
-  border-color: #e8772e;
+  background-color: #99ccff;
+  border-color: #99ccff;
 }
 
 .form-check-input:focus {
-  border-color: #e8772e;
+  border-color: #99ccff;
   outline: 0;
-  box-shadow: 0 0 0 .25rem #ff8c4391;
+  box-shadow: 0 0 0 .25rem #99ccff;
   --bs-form-switch-bg: none;
 }
 

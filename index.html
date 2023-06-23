@@ -38,12 +38,13 @@
 
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+-->
   <!-- CSS -->
   <link href="css/base.css"  type="text/css" rel="stylesheet"/>
   <link href="css/menu.css"  type="text/css" rel="stylesheet"/>
   <link href="css/inserted-order.css"  type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -95,6 +96,10 @@
     </div>
   </nav>
 
+  <div id="full-content">
+
+  </div>
+
   <!-- Item popup -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
@@ -103,18 +108,11 @@
           <h1 class="modal-title fs-5" id="staticBackdropLabel">dish-name</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="itemclose"></button>
         </div>
-        <div class="modal-body" id="dishDescription">
+        <div class="modal-body" id="dishPhoto">
+          <img class="product-popup-image" id="dish-image" src="#" alt="#"/>
+        </div>
+        <div class="modal-footer" id="dishDescription">
           dish-description
-        </div>
-        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-          Quantity :
-          <span id = "quantity">1</span>
-          <button type="button" id="minusbut" class="btn btn-danger"><i class="bi bi-dash-circle"></i></button>
-          <button type="button" id="plusbut" class="btn btn-success"><i class="bi bi-plus-circle"></i></button>
-        </div>
-        <div class="modal-footer">
-          <button type="button" id = "closebut" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x-square-fill"></i> Close</button>
-          <button type="button" id = "addbut" class="add-to-cart btn btn-warning" data-bs-dismiss="modal"><i class="bi bi-cart-plus-fill"></i> Add to cart</button>
         </div>
       </div>
     </div>
@@ -122,6 +120,9 @@
 
 </div>
 
+<button id="btn_scroll-top" class="btn btn-primary">
+  <i class="fas fa-arrow-up"></i>
+</button>
 
 <footer class="bg-dark text-white text-center text-lg-start " id="footer">
   <!-- Grid container -->
@@ -130,10 +131,10 @@
     <div class="row">
 
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">SAGRONE</h5>
+        <h5 class="text-uppercase">Sagra del Carmine</h5>
 
         <p>
-          Sagrone offers you a platform to place order for your favorite SAGRA! contact us if you want to add your sagra!
+          44&#186; Sagra paesana della Madonna del Carmine a Falzè di Trevignano (TV)
         </p>
       </div>
 
@@ -163,7 +164,7 @@
   </div>
 
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2023 Copyright: Sagrone
+    © 2023 Copyright: Simone Merlo
   </div>
   <!-- Copyright -->
 </footer>
