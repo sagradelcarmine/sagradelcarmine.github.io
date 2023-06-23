@@ -10,31 +10,18 @@ var sagronewebapp=window.location.href.replace(host,"");
 sagronewebapp=sagronewebapp.slice(0,sagronewebapp.indexOf("/"));
 //console.log(sagronewebapp);
 var baseURL=host+sagronewebapp;
+var product_list;
 
 document.addEventListener("DOMContentLoaded", function(){
-    var categoriesList;
-    var product_list;
-    let queryString=window.location.search;
-    let params= new URLSearchParams(queryString);
-    let url = baseURL+"/rest/categories/available/" + params.get('sagra'); //CHANGED FROM HTTPS!!
-    var xhr= new XMLHttpRequest();
-    xhr.open("GET", url);
-    //xhr.setRequestHeader('Accept', 'application/json');
-    xhr.onload=function () {
-        if(xhr.status === 200) {
-            var responseObject = JSON.parse(xhr.responseText);
-            const categoryObjects = responseObject['resource-list'].map(item => item.category);
-            categoriesList = categoryObjects.map(category => category.name);
-            generate_categories_list(categoriesList, params.get('sagra'));
+    var categoriesList=['Primi','Secondi','contorni','Panini','Bevande','Dolci e Sgroppino'];
 
-        }else{
-            printError("Unable to load products!",20);
-        }
-    };
-    xhr.send();
+
+    generate_categories_list(categoriesList);
+
+
 });
 
-function generate_categories_list(categoriesList, id_sagra){
+function generate_categories_list(categoriesList){
     var categoriesdiv=document.getElementById("categories-list");
     if(categoriesList.length > 0){
         let firstCategory; //needed to load the first elements.
@@ -46,28 +33,12 @@ function generate_categories_list(categoriesList, id_sagra){
             categorya.classList.add("category-item");
             var cat = categoriesList[i].toLowerCase();
             categorya.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
-            var category = categoriesList[i].replace(/\s/g, "_");
-            var url_products  = baseURL+"/rest/product/category/" + category + "/" + id_sagra;
-            categorya.addEventListener("click",function(event){
-                    for(let j=0; j<categoriesdiv.childNodes.length; j++){
 
-                        categoriesdiv.childNodes[j].className="nav-link category-item";
-                    }
-                    event.target.className="nav-link category-item-selected";
-
-                }
-            );
-            categorya.addEventListener("click",generateProductHandler(url_products));
-            //categoryli.appendChild(categorya);
             categoriesdiv.appendChild(categorya);
-            if(i===0){
-                firstCategory=categorya;
-            }
+
         }
 
-        if(firstCategory !== null && firstCategory !== undefined){
-            firstCategory.click();
-        }
+
     }else{
         let categoriesNav= document.getElementById("categories-nav");
         let categoryParent=categoriesNav.parentNode;
