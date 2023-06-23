@@ -9,12 +9,12 @@
 }
 
 .category-item:hover{
-    border-bottom: 3px solid #e8772e;
+    border-bottom: 3px solid #99ccff;
 }
 
 .category-item-selected{
     border-top: 3px solid 	rgba(33, 37, 41, 0);
-    border-bottom: 3px solid #e8772e;
+    border-bottom: 3px solid #99ccff;
 }
 
 

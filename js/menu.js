@@ -1,3 +1,44 @@
+//product object
+function Product(photo, name, price, desc,category) {
+    this.photo = photo;
+    this.name = name;
+    this.price = price;
+    this.desc = desc;
+    this.category=category;
+}
+
+var prod_list=[];
+prod_list.append(new Product("media/GnocchiAlPomodoro.jpg","Gnocci al Pomodoro",5.00,"Gnocchi al pomodoro","Primi"));
+prod_list.append(new Product("media/GnocchiAlRagu.jpg","Gnocci al Rag\u00F9",5.50,"Gnocchi al rag\u00F9","Primi"));
+prod_list.append(new Product("media/GnocchiAlRaguDiConiglio.jpg","Gnocci al Rag\u00F9 di coniglio",5.50,"Gnocchi al rag\u00F9 di coniglio","Primi"));
+prod_list.append(new Product("media/SapaghettiAlPomodoro.jpg","Spaghetti al Pomodoro",5.00,"spaghetti al pomodoro","Primi"));
+prod_list.append(new Product("media/GnocchiAlRagu.jpg","Gnocci al Rag\u00F9",5.50,"Spaghetti al rag\u00F9","Primi"));
+prod_list.append(new Product("media/GnocchiAlRaguDiConiglio.jpg","Gnocci al Rag\u00F9 di Coniglio",5.50,"Spaghetti al rag\u00F9 di coniglio","Primi"));
+
+
+prod_list.append(new Product("media/PiattoEstivo.jpg","Piatto Estivo",8.00,"mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
+prod_list.append(new Product("media/BisteccaDiCavallo.jpg","Bistecca di Cavallo",10.00,"Bistecca di cavallo con pane","Secondi"));
+prod_list.append(new Product("media/StincoDiMaiale.jpg","Stinco",9.00,"Stinco di maiale al forno con pane","Secondi"));
+prod_list.append(new Product("media/Costicine.jpg","Costicine",7.00,"3 costicine con polenta","Secondi"));
+prod_list.append(new Product("media/Pancetta.jpg","Pancetta alla Piastra",6.00,"Pancetta alla piastra con pane","Secondi"));
+prod_list.append(new Product("media/CosciaDiPollo.jpg","Coscia di Pollo",7.00,"Coscia di pollo disossata con polenta","Secondi"));
+prod_list.append(new Product("media/Salsiccia.jpg","Salsiccia",6.00,"2 salsicce con polenta","Secondi"));
+prod_list.append(new Product("media/Tagliata.png","Tagliata",11.00,"Tagliata di manzo con rucola e pane","Secondi"));
+prod_list.append(new Product("media/PiattoSagra.jpg","Piatto Sagra",10.00,"2 costicine, salsiccia, pancetta e polenta","Secondi"));
+prod_list.append(new Product("media/PiattoBimbi.jpg","Piatto Bimbi",5.00,"Wurstel con patate","Secondi"));
+prod_list.append(new Product("media/FormaggioCotto.jpg","Formaggio Cotto",6.00,"Formaggio cotto con polenta","Secondi"));
+prod_list.append(new Product("media/FritturaDiAnelli.jpg","Frittura di Anelli",10.00,"Frittura di anelli di totano con polenta","Secondi"));
+
+
+
+
+
+
+
+
+
+
+
 
 //declaring shopping cart
 var shoppingCart;
@@ -13,7 +54,7 @@ var baseURL=host+sagronewebapp;
 var product_list;
 
 document.addEventListener("DOMContentLoaded", function(){
-    var categoriesList=['Primi','Secondi','contorni','Panini','Bevande','Dolci e Sgroppino'];
+    var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Dolci'];
 
 
     generate_categories_list(categoriesList);
@@ -31,9 +72,11 @@ function generate_categories_list(categoriesList){
             var categorya= document.createElement("a");
             categorya.classList.add("nav-link");
             categorya.classList.add("category-item");
-            var cat = categoriesList[i].toLowerCase();
+
+            var cat = categoriesList[i];
             categorya.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
 
+            categorya.href="#"+cat;
             categoriesdiv.appendChild(categorya);
 
         }
