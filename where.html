@@ -24,7 +24,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Dove Siamo</title>
+  <title>Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Adding bootstrap -->
   <!-- Adding bootstrap -->
@@ -43,11 +43,11 @@
   <!-- CSS -->
   <link href="css/base.css"  type="text/css" rel="stylesheet"/>
   <link href="css/menu.css"  type="text/css" rel="stylesheet"/>
-  <link href="css/inserted-order.css"  type="text/css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/base.js"></script>
   <script src="js/menu.js"></script>
 
   <!-- FAVICON -->
@@ -62,90 +62,46 @@
 
 
 
-<div>
-  <img src="media/sagradelcarmine.png" alt="Sagra del Carmine" id="main-logo">
-</div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerSagrone" aria-controls="navbarTogglerSagrone" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerSagrone">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="events.html">Eventi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="where.html">Dove Siamo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="who.html">Chi Siamo</a>
-      </li>
 
 
-
-
-    </ul>
-  </div>
-</nav>
+<div include-html="header.html"></div>
 
 
 
 <!-- display the list of products-->
 <div id="full-container">
+  <div class="row" style="text-align: center;">
+    <p>Siamo situati a Falz&egrave; di Trevignano in Via 4 Novembre, presso gli impianti parrocchiali.</p>
+    <p>Vi &egrave; ampia disponibilit&agrave; di parcheggio nelle zone limitrofe, opportunamente segnalato.</p>
+  </div>
+
+  <div class="row justify-content-center">
+
+      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3" >
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+        var setting = {"query":"campetto, Falzé, Province of Treviso, Italy","width":300,"height":300,"satellite":false,"zoom":18,"placeId":"ChIJH_Cuxcc7eUcR7RYKOEF6HUw","cid":"0x4c1d7a41380a16ed","coords":[45.7416249,12.0841888],"lang":"en","queryString":"campetto, Falzé, Province of Treviso, Italy","centerCoord":[45.7416249,12.0841888],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"947467"};
+        var d = document;
+        var s = d.createElement('script');
+        s.src = 'https://1map.com/js/script-for-user.js?embed_id=947467';
+        s.async = true;
+        s.onload = function (e) {
+          window.OneMap.initMap(setting)
+        };
+        var to = d.getElementsByTagName('script')[0];
+        to.parentNode.insertBefore(s, to);
+      })();</script><a href="https://1map.com/map-embed">1 Map</a>
+      </div>
+    </div>
+
+
 
 
 </div>
 
 
 
-<footer class="bg-dark text-white text-center text-lg-start " id="footer">
-  <!-- Grid container -->
-  <div class="container p-4">
+<div include-html="footer.html"></div>
 
-    <div class="row">
-
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Sagra del Carmine</h5>
-
-        <p>
-          44&#186; Sagra paesana della Madonna del Carmine a Falzè di Trevignano (TV)
-        </p>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Our site</h5>
-
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="#" class="text-white">Login</a>
-          </li>
-          <li>
-            <a href="#" class="text-white">Order</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Contacts</h5>
-
-        <address>
-          info.sagrone@gmail.com
-        </address>
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2023 Copyright: Simone Merlo
-  </div>
-  <!-- Copyright -->
-</footer>
+<script> includeHTML();</script>
 </body>
 </html>
