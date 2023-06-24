@@ -92,3 +92,11 @@
 .sagrone-message{
     margin: 1vh 2vw 1vh 2vw;
 }
+
+.nav-item:hover{
+    color:#99ccff;
+}
+
+.footer-link{
+    text-decoration: none;
+}
