@@ -62,6 +62,10 @@ prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce",2.50,"Profite
 prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppino gusto limone o liquirizia","Dolci"));
 
 
+prod_list.push(new Product("media/menu/Spiedo.png","Spiedo",17,"Spiedo","Serate-speciali"));
+prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella","Serate-speciali"));
+prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",17,"Coniglio","Serate-speciali"));
+
 //declaring shopping cart
 var shoppingCart;
 
@@ -76,7 +80,7 @@ var baseURL=host+sagronewebapp;
 var product_list;
 
 document.addEventListener("DOMContentLoaded", function(){
-    var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Dolci'];
+    var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Dolci','Serate-speciali'];
 
 
     generate_categories_list(categoriesList);
@@ -97,14 +101,14 @@ function generate_categories_list(categoriesList){
             categorya.classList.add("category-item");
 
             var cat = categoriesList[i];
-            categorya.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+            categorya.textContent = cat.charAt(0).toUpperCase() + cat.slice(1).replace("-"," ");//replacing
 
             categorya.href="#"+cat;
             categoriesdiv.appendChild(categorya);
 
 
             var categorytitle=document.createElement("h3");
-            categorytitle.innerText=cat;
+            categorytitle.innerText=cat.replace("-"," ");//replacing
             categorytitle.classList="category-title";
             categorytitle.id=cat;
             var categorydiv=document.createElement("div");
