@@ -49,12 +49,12 @@ prod_list.push(new Product("media/menu/Vino.png","Vino in Bottiglia SFUSO (0.75l
 prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",8.00,"Vino in Bottiglia (0.75lt)","Bevande"));
 prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",10.00,"Prosecco DOC Treviso BRUT","Bevande"));
 
-prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,25cc",2.50,"Birra bionda Castello, bicchiere da 0,25cc","Bevande"));
-prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,25cc",2.50,"Birra non filtrata Dolomite, bicchiere da 0,25cc","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,25cc",2.50,"Birra rossa Castello, bicchiere da 0,25cc","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,4cc",4.50,"Birra bionda Castello, bicchiere da 0,4cc","Bevande"));
-prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,4cc",4.50,"Birra non filtrata Dolomite, bicchiere da 0,4cc","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,4cc",4.50,"Birra rossa Castello, bicchiere da 0,4cc","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,25lt",2.50,"Birra bionda Castello, bicchiere da 0,25lt","Bevande"));
+prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,25lt",2.50,"Birra non filtrata Dolomite, bicchiere da 0,25lt","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,25lt",2.50,"Birra rossa Castello, bicchiere da 0,25lt","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,4lt",4.50,"Birra bionda Castello, bicchiere da 0,4lt","Bevande"));
+prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,4lt",4.50,"Birra non filtrata Dolomite, bicchiere da 0,4lt","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,4lt",4.50,"Birra rossa Castello, bicchiere da 0,4lt","Bevande"));
 prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",12.00,"Caraffa di birra (1,5lt) Rossa, Bionda o non filtrata","Bevande"));
 
 
