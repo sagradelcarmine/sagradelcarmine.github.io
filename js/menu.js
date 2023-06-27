@@ -8,10 +8,10 @@ function Product(photo, name, price, desc,category) {
 }
 
 var prod_list=[];
-prod_list.push(new Product("media/menu/GnocchiAlPomodoro.png","Gnocci al Pomodoro",5.00,"Gnocchi al pomodoro","Primi"));
-prod_list.push(new Product("media/menu/GnocchiAlRagu.png","Gnocci al Rag\u00F9",5.50,"Gnocchi al rag\u00F9","Primi"));
-prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocci al Rag\u00F9 di coniglio",5.50,"Gnocchi al rag\u00F9 di coniglio","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.00,"spaghetti al pomodoro","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlPomodoro.png","Gnocchi al Pomodoro",5.00,"Gnocchi al pomodoro","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlRagu.png","Gnocchi al Rag\u00F9",5.50,"Gnocchi al rag\u00F9","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al Rag\u00F9 di coniglio",5.50,"Gnocchi al rag\u00F9 di coniglio","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.00,"Spaghetti al pomodoro","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlRagu.png","Spaghetti al Rag\u00F9",5.50,"Spaghetti al rag\u00F9","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",5.50,"Spaghetti al rag\u00F9 di coniglio","Primi"));
 
@@ -33,7 +33,7 @@ prod_list.push(new Product("media/menu/FritturaDiAnelli.png","Frittura di Anelli
 prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte",2.50,"Patatine fritte","Contorni"));
 prod_list.push(new Product("media/menu/Funghi.png","Funghi",3.00,"Funghi","Contorni"));
 prod_list.push(new Product("media/menu/Fagioli.png","Fagioli",3.00,"Fagioli","Contorni"));
-prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte (BAR)",2.50,"Patatine fritte da ritirare presso il bar","Contorni"));
+//prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte (BAR)",2.50,"Patatine fritte da ritirare presso il bar","Contorni"));
 
 prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO",6.00,"Panino con pastin, cipolla e peperoni","Panini"));
 prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN",5.50,"Panino con pastin","Panini"));
@@ -41,7 +41,7 @@ prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIAN
 prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA",4.00,"Panino con porchetta","Panini"));
 
 prod_list.push(new Product("media/menu/Acqua.png","Acqua minerale 0.5lt",1.00,"Acqua minerale naturale o frizzante","Bevande"));
-prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.00,"coca cola, aranciata, lemonsoda o the","Bevande"));
+prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.00,"Coca Cola, aranciata, Lemonsoda o the","Bevande"));
 prod_list.push(new Product("media/menu/Succo.png","Succo di Frutta",2.00,"Succo di frutta, gusti assortiti","Bevande"));
 prod_list.push(new Product("media/menu/Caffe.png","Caff\u00E8",1.00,"Caff\u00E8","Bevande"));
 prod_list.push(new Product("media/menu/Ombra.png","Ombra di Vino",1.00,"Ombra di vino rosso o bianco","Bevande"));
