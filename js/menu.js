@@ -62,9 +62,9 @@ prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce",2.50,"Profite
 prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppino gusto limone o liquirizia","Dolci"));
 
 
-prod_list.push(new Product("media/menu/Spiedo.png","Spiedo",17,"Spiedo","Serate-speciali"));
-prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella","Serate-speciali"));
-prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",17,"Coniglio","Serate-speciali"));
+prod_list.push(new Product("media/menu/Spiedo.png","Spiedo",12,"Spiedo: costicina, coppa e pollo","Serate-speciali"));
+prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella mista pesce e carne","Serate-speciali"));
+prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",12,"Rotolo, salsiccia e spiedo di coniglio","Serate-speciali"));
 
 //declaring shopping cart
 var shoppingCart;
