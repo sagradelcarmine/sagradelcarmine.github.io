@@ -108,7 +108,12 @@ function generate_categories_list(categoriesList){
 
 
             var categorytitle=document.createElement("h3");
-            categorytitle.innerText=cat.replace("-"," ");//replacing
+            if(cat==="Serate-speciali"){
+                categorytitle.innerText="Serate Speciali - SU PRENOTAZIONE";
+            }else{
+                categorytitle.innerText=cat.replace("-"," ");//replacing
+            }
+
             categorytitle.classList="category-title";
             categorytitle.id=cat;
             var categorydiv=document.createElement("div");
@@ -118,6 +123,22 @@ function generate_categories_list(categoriesList){
             generate_product_list_by_categories(prod_list,cat);
         }
 
+        let par=document.createElement("p");
+        par.innerText="PER PRENOTARE: ";
+        par.classList="number-par"
+        let bookinglist=document.createElement("ul");
+        bookinglist.classList="ref-list";
+        let el=document.createElement("li");
+        el.innerHTML="<a href='tel:3488096823' class='ph-lk'>348.8096823</a> Concetta";
+        bookinglist.appendChild(el);
+        el=document.createElement("li");
+        el.innerHTML="<a href='tel:3394171820' class='ph-lk'>339.4171820</a> Mario";
+        bookinglist.appendChild(el);
+        el=document.createElement("li");
+        el.innerHTML="<a href='tel:3478382222' class='ph-lk'>347.8382222</a> Silvana";
+        bookinglist.appendChild(el);
+        par.appendChild(bookinglist);
+        maincon.appendChild(par);
 
     }else{
         let categoriesNav= document.getElementById("categories-nav");

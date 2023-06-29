@@ -212,3 +212,26 @@ input[type=number] {
     height: auto;
     border-radius: 10px;
 }
+
+
+.number-par {
+    margin: 2vh 2vw 1vh 2vw !important;
+    padding: 2vh 2vw 2vh 2vw !important;
+}
+
+
+.ref-list{
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+.ph-lk{
+    color: #99ccff;
+    text-decoration: none;
+}
+
+.ph-lk:hover{
+    color: #000000;
+    text-decoration: underline;
+}
