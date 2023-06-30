@@ -126,7 +126,8 @@ function generate_categories_list(categoriesList){
 
         let par=document.createElement("p");
         par.innerText="PER PRENOTARE: ";
-        par.classList="number-par"
+        par.classList="number-par";
+        par.id="tel-num";
         let bookinglist=document.createElement("ul");
         bookinglist.classList="ref-list";
         let el=document.createElement("li");
