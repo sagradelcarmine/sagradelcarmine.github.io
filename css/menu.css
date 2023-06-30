@@ -215,6 +215,7 @@ input[type=number] {
 
 
 .number-par {
+    font-size: 120%;
     margin: 2vh 2vw 1vh 2vw !important;
     padding: 2vh 2vw 2vh 2vw !important;
 }

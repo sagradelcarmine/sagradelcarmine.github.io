@@ -10,10 +10,11 @@ function Product(photo, name, price, desc,category) {
 var prod_list=[];
 prod_list.push(new Product("media/menu/GnocchiAlPomodoro.png","Gnocchi al Pomodoro",5.00,"Gnocchi al pomodoro","Primi"));
 prod_list.push(new Product("media/menu/GnocchiAlRagu.png","Gnocchi al Rag\u00F9",5.50,"Gnocchi al rag\u00F9","Primi"));
-prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al Rag\u00F9 di coniglio",5.50,"Gnocchi al rag\u00F9 di coniglio","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al Rag\u00F9 di coniglio",6.00,"Gnocchi al rag\u00F9 di coniglio","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.00,"Spaghetti al pomodoro","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlRagu.png","Spaghetti al Rag\u00F9",5.50,"Spaghetti al rag\u00F9","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",5.50,"Spaghetti al rag\u00F9 di coniglio","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",6.00,"Spaghetti al rag\u00F9 di coniglio","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
 
 
 prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
@@ -25,7 +26,7 @@ prod_list.push(new Product("media/menu/CosciaDiPollo.png","Coscia di Pollo",7.00
 prod_list.push(new Product("media/menu/Salsiccia.png","Salsiccia",6.00,"2 salsicce con polenta","Secondi"));
 prod_list.push(new Product("media/menu/Tagliata.png","Tagliata",11.00,"Tagliata di manzo con rucola e pane","Secondi"));
 prod_list.push(new Product("media/menu/PiattoSagra.png","Piatto Sagra",10.00,"2 costicine, salsiccia, pancetta e polenta","Secondi"));
-prod_list.push(new Product("media/menu/PiattoBimbi.png","Piatto Bimbi",5.00,"Wurstel con patate","Secondi"));
+prod_list.push(new Product("media/menu/PiattoBimbi.png","Piatto Bimbi",5.00,"Wurstel con patatine fritte","Secondi"));
 prod_list.push(new Product("media/menu/FormaggioCotto.png","Formaggio Cotto",6.00,"Formaggio cotto con polenta","Secondi"));
 prod_list.push(new Product("media/menu/FritturaDiAnelli.png","Frittura di Anelli",10.00,"Frittura di anelli di totano con polenta","Secondi"));
 
@@ -36,8 +37,8 @@ prod_list.push(new Product("media/menu/Fagioli.png","Fagioli",3.00,"Fagioli","Co
 //prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte (BAR)",2.50,"Patatine fritte da ritirare presso il bar","Contorni"));
 
 prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO",6.00,"Panino con pastin, cipolla e peperoni","Panini"));
-prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN",5.50,"Panino con pastin","Panini"));
-prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO",6.00,"Panino con cipolla e peperoni","Panini"));
+prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN",5.00,"Panino con pastin","Panini"));
+prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO",5.00,"Panino con cipolla e peperoni","Panini"));
 prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA",4.00,"Panino con porchetta","Panini"));
 
 prod_list.push(new Product("media/menu/Acqua.png","Acqua minerale 0.5lt",1.00,"Acqua minerale naturale o frizzante","Bevande"));
@@ -49,16 +50,16 @@ prod_list.push(new Product("media/menu/Vino.png","Vino in Bottiglia SFUSO (0.75l
 prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",8.00,"Vino in Bottiglia (0.75lt)","Bevande"));
 prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",10.00,"Prosecco DOC Treviso BRUT","Bevande"));
 
-prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,25lt",2.50,"Birra bionda Castello, bicchiere da 0,25lt","Bevande"));
-prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,25lt",2.50,"Birra non filtrata Dolomite, bicchiere da 0,25lt","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,25lt",2.50,"Birra rossa Castello, bicchiere da 0,25lt","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA 0,4lt",4.50,"Birra bionda Castello, bicchiere da 0,4lt","Bevande"));
-prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA 0,4lt",4.50,"Birra non filtrata Dolomite, bicchiere da 0,4lt","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA 0,4lt",4.50,"Birra rossa Castello, bicchiere da 0,4lt","Bevande"));
-prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",12.00,"Caraffa di birra (1,5lt) Rossa, Bionda o non filtrata","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA PICCOLA",2.50,"Birra bionda Castello PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA PICCOLA",2.50,"Birra non filtrata Dolomite PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA PICCOLA",2.50,"Birra rossa Castello PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA GRANDE",5.00,"Birra bionda Castello GRANDE","Bevande"));
+prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA GRANDE",5.00,"Birra non filtrata Dolomite GRANDE","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA GRANDE",5.00,"Birra rossa Castello GRANDE","Bevande"));
+prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",14.00,"Caraffa di birra (1,5lt) Rossa, Bionda o non filtrata","Bevande"));
 
 
-prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce",2.50,"Profiteroles, torta della nonna o torta al cioccolato","Dolci"));
+prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce (profiteroles, torta della nonna, torta al cioccolato)",2.50,"Profiteroles, torta della nonna o torta al cioccolato","Dolci"));
 prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppino gusto limone o liquirizia","Dolci"));
 
 
