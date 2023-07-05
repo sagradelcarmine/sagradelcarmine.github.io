@@ -36,10 +36,10 @@ prod_list.push(new Product("media/menu/Funghi.png","Funghi",3.00,"Funghi","Conto
 prod_list.push(new Product("media/menu/Fagioli.png","Fagioli",3.00,"Fagioli","Contorni"));
 //prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte (BAR)",2.50,"Patatine fritte da ritirare presso il bar","Contorni"));
 
-prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO",6.00,"Panino con pastin, cipolla e peperoni","Panini"));
-prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN",5.00,"Panino con pastin","Panini"));
-prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO",5.00,"Panino con cipolla e peperoni","Panini"));
-prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA",4.00,"Panino con porchetta","Panini"));
+prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO *",6.00,"Panino con pastin, cipolla e peperoni","Panini"));
+prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN *",5.00,"Panino con pastin","Panini"));
+prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO *",5.00,"Panino con cipolla e peperoni","Panini"));
+prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA *",4.00,"Panino con porchetta","Panini"));
 
 prod_list.push(new Product("media/menu/Acqua.png","Acqua minerale 0.5lt",1.00,"Acqua minerale naturale o frizzante","Bevande"));
 prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.00,"Coca Cola, aranciata, Lemonsoda o the","Bevande"));
@@ -122,6 +122,13 @@ function generate_categories_list(categoriesList){
             maincon.appendChild(categorytitle);
             maincon.appendChild(categorydiv);
             generate_product_list_by_categories(prod_list,cat);
+
+            if(cat==="Panini"){
+                let panpar=document.createElement("p");
+                panpar.innerText="* i panini sono da ritirare presso il BAR";
+                panpar.classList="panini-exc";
+                maincon.appendChild(panpar);
+            }
         }
 
         let par=document.createElement("p");
