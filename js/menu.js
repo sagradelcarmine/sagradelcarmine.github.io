@@ -65,7 +65,11 @@ prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppin
 
 prod_list.push(new Product("media/menu/Spiedo.png","Spiedo",12,"Spiedo: costicina, coppa e pollo","Serate-speciali"));
 prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella mista pesce e carne","Serate-speciali"));
+prod_list.push(new Product("media/menu/Classi.png","Serata Classi",null,"Serata delle classi, menu standard a scelta","Serate-speciali"));
 prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",12,"Rotolo, salsiccia e spiedo di coniglio","Serate-speciali"));
+
+
+
 
 //declaring shopping cart
 var shoppingCart;
@@ -131,6 +135,14 @@ function generate_categories_list(categoriesList){
             }
         }
 
+
+
+
+
+
+
+
+        //NUMERI PER PRENOTARE
         let par=document.createElement("p");
         par.innerText="PER PRENOTARE: ";
         par.classList="number-par";
@@ -170,7 +182,12 @@ function generate_product_list_by_categories(productsList,category){
             var product = productsList[i];
             if(product.category===category){
                 var name = product.name;
-                var price = product.price.toFixed(2);
+                var price;
+                if(product.price != null){
+                    price = product.price.toFixed(2);
+                }else{
+                    price=null
+                }
                 var photo = product.photo;
 
                 var row = document.createElement("div");
@@ -205,7 +222,10 @@ function generate_product_list_by_categories(productsList,category){
                 //Adding the price
                 let col_price = document.createElement("div");
                 col_price.classList.add("col","price-col", "text-center");
-                col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
+                if(price != null){
+                    col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
+                }
+
 
                 row.appendChild(col_price);
 
@@ -220,6 +240,10 @@ function generate_product_list_by_categories(productsList,category){
 
 
 }
+
+
+
+
 function modifyPopup(product) {
     var popupTitle = $("#staticBackdropLabel");
     popupTitle.html(product.name);
