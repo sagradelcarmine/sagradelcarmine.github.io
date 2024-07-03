@@ -63,10 +63,9 @@ prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce (profiteroles,
 prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppino gusto limone o liquirizia","Dolci"));
 
 
-prod_list.push(new Product("media/menu/Spiedo.png","Spiedo",12,"Spiedo: costicina, coppa e pollo","Serate-speciali"));
 prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella mista pesce e carne","Serate-speciali"));
 prod_list.push(new Product("media/menu/Classi.png","Serata Classi",null,"Serata delle classi, menu standard a scelta","Serate-speciali"));
-prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",12,"Rotolo, salsiccia e spiedo di coniglio","Serate-speciali"));
+prod_list.push(new Product("media/menu/Pesce.png","Grigliata di Pesce",25,"Orata, Seppie, Mazzancolle, Scampo, Spada e polenta","Serate-speciali"));
 
 
 
