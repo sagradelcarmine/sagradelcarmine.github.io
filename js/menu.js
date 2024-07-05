@@ -14,7 +14,7 @@ prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al 
 prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.00,"Spaghetti al pomodoro","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlRagu.png","Spaghetti al Rag\u00F9",5.50,"Spaghetti al rag\u00F9","Primi"));
 prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",6.00,"Spaghetti al rag\u00F9 di coniglio","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
+//prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
 
 
 prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
@@ -40,6 +40,7 @@ prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO *",6.00,"Pan
 prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN *",5.00,"Panino con pastin","Panini"));
 prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO *",5.00,"Panino con cipolla e peperoni","Panini"));
 prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA *",4.00,"Panino con porchetta","Panini"));
+prod_list.push(new Product("media/menu/Bruschetta.png","BRUSCHETTA della Sagra *",4.00,"Bruschetta con zucchine, pomodoro, carote, aglio, capperi, basilico","Panini"));
 
 prod_list.push(new Product("media/menu/Acqua.png","Acqua minerale 0.5lt",1.00,"Acqua minerale naturale o frizzante","Bevande"));
 prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.00,"Coca Cola, aranciata, Lemonsoda o the","Bevande"));
@@ -47,8 +48,8 @@ prod_list.push(new Product("media/menu/Succo.png","Succo di Frutta",2.00,"Succo 
 prod_list.push(new Product("media/menu/Caffe.png","Caff\u00E8",1.00,"Caff\u00E8","Bevande"));
 prod_list.push(new Product("media/menu/Ombra.png","Ombra di Vino",1.00,"Ombra di vino rosso o bianco","Bevande"));
 prod_list.push(new Product("media/menu/Vino.png","Vino in Bottiglia SFUSO (0.75lt)",5.00,"Vino in Bottiglia SFUSO (0.75lt)","Bevande"));
-prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",8.00,"Vino in Bottiglia (0.75lt)","Bevande"));
-prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",10.00,"Prosecco DOC Treviso BRUT","Bevande"));
+prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",8.00,"Vino in Bottiglia (0.75lt): merlot, cabernet sauvignon","Bevande"));
+prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",8.00,"Prosecco DOC Treviso BRUT","Bevande"));
 
 prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA PICCOLA",2.50,"Birra bionda Castello PICCOLA","Bevande"));
 prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA PICCOLA",2.50,"Birra non filtrata Dolomite PICCOLA","Bevande"));
@@ -57,6 +58,7 @@ prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA GR
 prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA GRANDE",5.00,"Birra non filtrata Dolomite GRANDE","Bevande"));
 prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA GRANDE",5.00,"Birra rossa Castello GRANDE","Bevande"));
 prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",14.00,"Caraffa di birra (1,5lt) Rossa, Bionda o non filtrata","Bevande"));
+prod_list.push(new Product("media/menu/Spritz.png","Spritz",3,"Spritz","Bevande"));
 
 
 prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce (profiteroles, torta della nonna, torta al cioccolato)",2.50,"Profiteroles, torta della nonna o torta al cioccolato","Dolci"));
