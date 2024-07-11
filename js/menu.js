@@ -17,7 +17,7 @@ prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti
 //prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
 
 
-prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
+prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella, pomodoro, prosciutto crudo e pane","Secondi"));
 prod_list.push(new Product("media/menu/BisteccaDiCavallo.png","Bistecca di Cavallo",10.00,"Bistecca di cavallo con pane","Secondi"));
 prod_list.push(new Product("media/menu/Stinco.png","Stinco",9.00,"Stinco di maiale al forno con pane","Secondi"));
 prod_list.push(new Product("media/menu/Costicine.png","Costicine",7.00,"3 costicine con polenta","Secondi"));
@@ -26,7 +26,7 @@ prod_list.push(new Product("media/menu/CosciaDiPollo.png","Coscia di Pollo",7.00
 prod_list.push(new Product("media/menu/Salsiccia.png","Salsiccia",6.00,"2 salsicce con polenta","Secondi"));
 prod_list.push(new Product("media/menu/Tagliata.png","Tagliata",11.00,"Tagliata di manzo con rucola e pane","Secondi"));
 prod_list.push(new Product("media/menu/PiattoSagra.png","Piatto Sagra",10.00,"2 costicine, salsiccia, pancetta e polenta","Secondi"));
-prod_list.push(new Product("media/menu/PiattoBimbi.png","Piatto Bimbi",5.00,"Wurstel con patatine fritte","Secondi"));
+prod_list.push(new Product("media/menu/PiattoBimbi.png","Wurstel con Patate",5.00,"Wurstel di POLLO con patatine fritte","Secondi"));
 prod_list.push(new Product("media/menu/FormaggioCotto.png","Formaggio Cotto",6.00,"Formaggio cotto con polenta","Secondi"));
 prod_list.push(new Product("media/menu/FritturaDiAnelli.png","Frittura di Anelli",10.00,"Frittura di anelli di totano con polenta","Secondi"));
 
