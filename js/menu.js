@@ -17,7 +17,7 @@ prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti
 //prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
 
 
-prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella, pomodoro, prosciutto crudo e pane","Secondi"));
+prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
 prod_list.push(new Product("media/menu/BisteccaDiCavallo.png","Bistecca di Cavallo",10.00,"Bistecca di cavallo con pane","Secondi"));
 prod_list.push(new Product("media/menu/Stinco.png","Stinco",9.00,"Stinco di maiale al forno con pane","Secondi"));
 prod_list.push(new Product("media/menu/Costicine.png","Costicine",7.00,"3 costicine con polenta","Secondi"));
