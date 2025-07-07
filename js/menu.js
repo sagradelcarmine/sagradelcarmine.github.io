@@ -8,66 +8,74 @@ function Product(photo, name, price, desc,category) {
 }
 
 var prod_list=[];
-prod_list.push(new Product("media/menu/GnocchiAlPomodoro.png","Gnocchi al Pomodoro",5.00,"Gnocchi al pomodoro","Primi"));
-prod_list.push(new Product("media/menu/GnocchiAlRagu.png","Gnocchi al Rag\u00F9",5.50,"Gnocchi al rag\u00F9","Primi"));
-prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al Rag\u00F9 di coniglio",6.00,"Gnocchi al rag\u00F9 di coniglio","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.00,"Spaghetti al pomodoro","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAlRagu.png","Spaghetti al Rag\u00F9",5.50,"Spaghetti al rag\u00F9","Primi"));
-prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",6.00,"Spaghetti al rag\u00F9 di coniglio","Primi"));
-//prod_list.push(new Product("media/menu/SpaghettiAmatriciana.png","Spaghetti all'Amatriciana",5.50,"Spaghetti all'amatriciana","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlPomodoro.png","Gnocchi al Pomodoro",5.50,"Gnocchi al pomodoro","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlRagu.png","Gnocchi al Rag\u00F9",6.00,"Gnocchi al rag\u00F9","Primi"));
+prod_list.push(new Product("media/menu/GnocchiAlRaguDiConiglio.png","Gnocchi al Rag\u00F9 di coniglio",6.50,"Gnocchi al rag\u00F9 di coniglio","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAlPomodoro.png","Spaghetti al Pomodoro",5.50,"Spaghetti al pomodoro","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAlRagu.png","Spaghetti al Rag\u00F9",6.00,"Spaghetti al rag\u00F9","Primi"));
+prod_list.push(new Product("media/menu/SpaghettiAlRaguDiConiglio.png","Spaghetti al Rag\u00F9 di Coniglio",6.50,"Spaghetti al rag\u00F9 di coniglio","Primi"));
 
 
-prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",8.00,"Mozzarella di bufala, pomodoro, prosciutto crudo e pane","Secondi"));
+
+prod_list.push(new Product("media/menu/PiattoEstivo.png","Piatto Estivo",9.00,"Mozzarella di bufala, pomodoro, culatello e pane","Secondi"));
 prod_list.push(new Product("media/menu/BisteccaDiCavallo.png","Bistecca di Cavallo",10.00,"Bistecca di cavallo con pane","Secondi"));
-prod_list.push(new Product("media/menu/Stinco.png","Stinco",9.00,"Stinco di maiale al forno con pane","Secondi"));
-prod_list.push(new Product("media/menu/Costicine.png","Costicine",7.00,"3 costicine con polenta","Secondi"));
-prod_list.push(new Product("media/menu/Pancetta.png","Pancetta alla Piastra",6.00,"Pancetta alla piastra con pane","Secondi"));
+prod_list.push(new Product("media/menu/Stinco.png","Stinco",12.00,"Stinco di maiale al forno con pane","Secondi"));
+prod_list.push(new Product("media/menu/Costicine.png","Costicine",8.00,"3 costicine con polenta","Secondi"));
+prod_list.push(new Product("media/menu/Pancetta.png","Pancetta alla Piastra",6.50,"Pancetta alla piastra con pane","Secondi"));
 prod_list.push(new Product("media/menu/CosciaDiPollo.png","Coscia di Pollo",7.00,"Coscia di pollo disossata con polenta","Secondi"));
-prod_list.push(new Product("media/menu/Salsiccia.png","Salsiccia",6.00,"2 salsicce con polenta","Secondi"));
-prod_list.push(new Product("media/menu/Tagliata.png","Tagliata",11.00,"Tagliata di manzo con rucola e pane","Secondi"));
+prod_list.push(new Product("media/menu/Salsiccia.png","Salsiccia",6.50,"2 salsicce con polenta","Secondi"));
+prod_list.push(new Product("media/menu/Tagliata.png","Tagliata",12.00,"Tagliata di manzo con rucola e pane","Secondi"));
 prod_list.push(new Product("media/menu/PiattoSagra.png","Piatto Sagra",10.00,"2 costicine, salsiccia, pancetta e polenta","Secondi"));
-prod_list.push(new Product("media/menu/PiattoBimbi.png","Wurstel con Patate",5.00,"Wurstel di POLLO con patatine fritte","Secondi"));
-prod_list.push(new Product("media/menu/FormaggioCotto.png","Formaggio Cotto",6.00,"Formaggio cotto con polenta","Secondi"));
+prod_list.push(new Product("media/menu/PiattoBimbi.png","Piatto Bimbi",5.00,"Wurstel di POLLO con patatine fritte","Secondi"));
+prod_list.push(new Product("media/menu/FormaggioCotto.png","Formaggio Cotto",7.00,"Formaggio cotto con polenta","Secondi"));
 prod_list.push(new Product("media/menu/FritturaDiAnelli.png","Frittura di Anelli",10.00,"Frittura di anelli di totano con polenta","Secondi"));
+prod_list.push(new Product("media/menu/PolpetteConiglio.png","Polpette di Coniglio",8.00,"Polpette di Coniglio in umido con pane","Secondi"));
+prod_list.push(new Product("media/menu/Trippa.png","Trippa alla Parmigiana",7.00,"Trippa alla parmigiana con pane","Secondi"));
 
 
-prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte",2.50,"Patatine fritte","Contorni"));
-prod_list.push(new Product("media/menu/Funghi.png","Funghi",3.00,"Funghi","Contorni"));
-prod_list.push(new Product("media/menu/Fagioli.png","Fagioli",3.00,"Fagioli","Contorni"));
+prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte",3.00,"Patatine fritte","Contorni"));
+prod_list.push(new Product("media/menu/Funghi.png","Funghi",3.50,"Funghi","Contorni"));
+prod_list.push(new Product("media/menu/Fagioli.png","Fagioli",3.00,"Fagioli (sedano e cipolla)","Contorni"));
 //prod_list.push(new Product("media/menu/Patate.png","Patatine Fritte (BAR)",2.50,"Patatine fritte da ritirare presso il bar","Contorni"));
 
 prod_list.push(new Product("media/menu/PaninoOnto.png","Panino ONTO *",6.00,"Panino con pastin, cipolla e peperoni","Panini"));
 prod_list.push(new Product("media/menu/PaninoPastin.png","Panino PASTIN *",5.00,"Panino con pastin","Panini"));
 prod_list.push(new Product("media/menu/PaninoVegetariano.png","Panino VEGETARIANO *",5.00,"Panino con cipolla e peperoni","Panini"));
 prod_list.push(new Product("media/menu/PaninoPorchetta.png","Panino PORCHETTA *",4.00,"Panino con porchetta","Panini"));
-prod_list.push(new Product("media/menu/Bruschetta.png","BRUSCHETTA della Sagra *",4.00,"Bruschetta con zucchine, pomodoro, carote, aglio, capperi, basilico","Panini"));
+prod_list.push(new Product("media/menu/Bruschetta.png","BRUSCHETTA della Sagra *",4.00,"Bruschetta con zucchine, pomodoro, carote, peperoni, aglio, capperi, basilico e rucola","Panini"));
+prod_list.push(new Product("media/menu/ConiglioBar.png","Polpettine di Coniglio *",5.00,"Polpettine di coniglio al forno","Panini"));
 
 prod_list.push(new Product("media/menu/Acqua.png","Acqua minerale 0.5lt",1.00,"Acqua minerale naturale o frizzante","Bevande"));
-prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.00,"Coca Cola, aranciata, Lemonsoda o the","Bevande"));
-prod_list.push(new Product("media/menu/Succo.png","Succo di Frutta",2.00,"Succo di frutta, gusti assortiti","Bevande"));
+prod_list.push(new Product("media/menu/Bibite.png","Bibite",2.50,"Coca Cola, aranciata, Lemonsoda o the","Bevande"));
+//prod_list.push(new Product("media/menu/Succo.png","Succo di Frutta",2.00,"Succo di frutta, gusti assortiti","Bevande"));
 prod_list.push(new Product("media/menu/Caffe.png","Caff\u00E8",1.00,"Caff\u00E8","Bevande"));
 prod_list.push(new Product("media/menu/Ombra.png","Ombra di Vino",1.00,"Ombra di vino rosso o bianco","Bevande"));
-prod_list.push(new Product("media/menu/Vino.png","Vino in Bottiglia SFUSO (0.75lt)",5.00,"Vino in Bottiglia SFUSO (0.75lt)","Bevande"));
-prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",8.00,"Vino in Bottiglia (0.75lt): merlot, cabernet sauvignon","Bevande"));
-prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",8.00,"Prosecco DOC Treviso BRUT","Bevande"));
+prod_list.push(new Product("media/menu/Vino.png","Vino in Bottiglia SFUSO (0.75lt)",5.50,"Vino in Bottiglia SFUSO (0.75lt)","Bevande"));
+prod_list.push(new Product("media/menu/VinoBott.png","Vino in Bottiglia (0.75lt)",9.00,"Vino in Bottiglia (0.75lt): merlot, cabernet sauvignon","Bevande"));
+//prod_list.push(new Product("media/menu/Prosecco.png","Prosecco DOC Treviso BRUT",8.00,"Prosecco DOC Treviso BRUT","Bevande"));
 
-prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA PICCOLA",2.50,"Birra bionda Castello PICCOLA","Bevande"));
-prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA PICCOLA",2.50,"Birra non filtrata Dolomite PICCOLA","Bevande"));
-prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA PICCOLA",2.50,"Birra rossa Castello PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA PICCOLA",3.00,"Birra bionda Castello PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA PICCOLA",3.00,"Birra non filtrata Dolomite PICCOLA","Bevande"));
+prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA PICCOLA",3.00,"Birra rossa Castello PICCOLA","Bevande"));
 prod_list.push(new Product("media/menu/BirraCastelloBionda.png","Birra BIONDA GRANDE",5.00,"Birra bionda Castello GRANDE","Bevande"));
 prod_list.push(new Product("media/menu/BirraPedavenaNF.png","Birra NON FILTRATA GRANDE",5.00,"Birra non filtrata Dolomite GRANDE","Bevande"));
 prod_list.push(new Product("media/menu/BirraCastelloRossa.png","Birra ROSSA GRANDE",5.00,"Birra rossa Castello GRANDE","Bevande"));
-prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",14.00,"Caraffa di birra (1,5lt) Rossa, Bionda o non filtrata","Bevande"));
-prod_list.push(new Product("media/menu/Spritz.png","Spritz",3,"Spritz","Bevande"));
+prod_list.push(new Product("media/menu/Radler.png","Radler",3.00,"Radler in bottiglia","Bevande"));
+prod_list.push(new Product("media/menu/Caraffa.png","Caraffa di BIRRA 1,5lt",15.00,"Caraffa di birra (1,5lt) Rossa o Bionda","Bevande"));
+prod_list.push(new Product("media/menu/Spritz.png","Spritz",3.00,"Spritz","Bevande"));
+prod_list.push(new Product("media/menu/GinLemon.png","Gin Lemon",6.00,"Gin Lemon","Bevande"));
+prod_list.push(new Product("media/menu/GinTonic.png","Gin Tonic",6.00,"Gin Tonic","Bevande"));
+prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",3.00,"Sgroppino gusto limone o liquirizia","Bar"));
 
-
-prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce (profiteroles, torta della nonna, torta al cioccolato)",2.50,"Profiteroles, torta della nonna o torta al cioccolato","Dolci"));
-prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",2.50,"Sgroppino gusto limone o liquirizia","Dolci"));
+//prod_list.push(new Product("media/menu/Dolci.png","Fetta di dolce (profiteroles, torta della nonna, torta al cioccolato)",2.50,"Profiteroles, torta della nonna o torta al cioccolato","Dolci"));
+//prod_list.push(new Product("media/menu/Sgroppino.png","Sgroppino",3.00,"Sgroppino gusto limone o liquirizia","Dolci"));
 
 
 prod_list.push(new Product("media/menu/Paella.png","Paella",17,"Paella mista pesce e carne","Serate-speciali"));
-prod_list.push(new Product("media/menu/Classi.png","Serata Classi",null,"Serata delle classi, menu standard a scelta","Serate-speciali"));
-prod_list.push(new Product("media/menu/Pesce.png","Grigliata di Pesce",25,"Orata, Seppie, Mazzancolle, Scampo, Spada e polenta","Serate-speciali"));
+prod_list.push(new Product("media/menu/Costata.png","Costata",35,"Costata","Serate-speciali"));
+prod_list.push(new Product("media/menu/Coniglio.png","Coniglio",35,"Delizie a base di coniglio","Serate-speciali"));
+//prod_list.push(new Product("media/menu/Classi.png","Serata Classi",null,"Serata delle classi, menu standard a scelta","Serate-speciali"));
+//prod_list.push(new Product("media/menu/Pesce.png","Grigliata di Pesce",25,"Orata, Seppie, Mazzancolle, Scampo, Spada e polenta","Serate-speciali"));
 
 
 
@@ -86,9 +94,9 @@ var baseURL=host+sagronewebapp;
 var product_list;
 
 document.addEventListener("DOMContentLoaded", function(){
-    var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Dolci','Serate-speciali'];
+    //var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Dolci','Serate-speciali'];
 
-
+    var categoriesList=['Primi','Secondi','Contorni','Panini','Bevande','Serate-speciali'];
     generate_categories_list(categoriesList);
 
 
@@ -130,7 +138,7 @@ function generate_categories_list(categoriesList){
 
             if(cat==="Panini"){
                 let panpar=document.createElement("p");
-                panpar.innerText="* i panini sono da ritirare presso il BAR";
+                panpar.innerText="* da ritirare presso il BAR";
                 panpar.classList="panini-exc";
                 maincon.appendChild(panpar);
             }
@@ -224,7 +232,8 @@ function generate_product_list_by_categories(productsList,category){
                 let col_price = document.createElement("div");
                 col_price.classList.add("col","price-col", "text-center");
                 if(price != null){
-                    col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
+                    //col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
+                    col_price.innerHTML ="-";
                 }
 
 
