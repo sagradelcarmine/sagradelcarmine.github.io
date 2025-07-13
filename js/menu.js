@@ -232,8 +232,8 @@ function generate_product_list_by_categories(productsList,category){
                 let col_price = document.createElement("div");
                 col_price.classList.add("col","price-col", "text-center");
                 if(price != null){
-                    //col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
-                    col_price.innerHTML ="-";
+                    col_price.innerHTML = Number(price).toFixed(2)+" \u20AC";
+                    //col_price.innerHTML ="-";
                 }
 
 
